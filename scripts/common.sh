@@ -10,7 +10,7 @@ function get_dir_name {
     GIT_DIR=${base%.*}
 }
 
-JOB_NAME="build-qpid-cpp"
+JOB_NAME="build-qpidcpp"
 GIT_REPO="https://github.com/apache/qpid-cpp.git"
 get_dir_name ${GIT_REPO}
 
